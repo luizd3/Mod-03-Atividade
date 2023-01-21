@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.mentorama.Mod03Atividade.Mod03AtividadeApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-21T00:49:03" hostname="NOTE-LUIZ" time="0.607">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.mentorama.Mod03Atividade.Mod03AtividadeApplicationTests" time="0.607"/>
+  <system-out><![CDATA[21:49:00.557 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [Mod03AtividadeApplicationTests]: using SpringBootContextLoader
+21:49:00.568 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.mentorama.Mod03Atividade.Mod03AtividadeApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:49:00.571 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.mentorama.Mod03Atividade.Mod03AtividadeApplicationTests]: Mod03AtividadeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:49:00.631 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [Mod03AtividadeApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+21:49:00.787 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\Projetos-Java\Avancado\Mod-03-Atividade\build\classes\java\main\com\mentorama\Mod03Atividade\Mod03AtividadeApplication.class]
+21:49:00.790 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.mentorama.Mod03Atividade.Mod03AtividadeApplication for test class com.mentorama.Mod03Atividade.Mod03AtividadeApplicationTests
+21:49:00.950 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+21:49:00.953 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+21:49:00.957 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [Mod03AtividadeApplicationTests]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+21:49:00.960 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [Mod03AtividadeApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-01-20T21:49:01.430-03:00  INFO 8308 --- [    Test worker] c.m.M.Mod03AtividadeApplicationTests     : Starting Mod03AtividadeApplicationTests using Java 19.0.1 with PID 8308 (started by Madruga in C:\Projetos-Java\Avancado\Mod-03-Atividade)
+2023-01-20T21:49:01.433-03:00  INFO 8308 --- [    Test worker] c.m.M.Mod03AtividadeApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2023-01-20T21:49:03.350-03:00  INFO 8308 --- [    Test worker] c.m.M.Mod03AtividadeApplicationTests     : Started Mod03AtividadeApplicationTests in 2.305 seconds (process running for 4.457)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
